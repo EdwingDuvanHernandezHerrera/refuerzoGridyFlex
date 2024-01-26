@@ -48,7 +48,7 @@ header .navContent:nth-child(2){
 
 .sectImgPrincipal{
     width: 100%;
-    height: 15rem;
+    height: 70vh;
     background-image: url('../storage/img/imagenPrueba.png');
     background-repeat: no-repeat;
     background-size: cover;
@@ -58,14 +58,15 @@ header .navContent:nth-child(2){
 }
 
 .artImgPrincipal{
+    color: var(--colortext);
     width: 25%;
-    height: 10rem;
+    height: 50%;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
     flex-direction: col;
-    border: 2px solid var(--bg-colorPrimary);    
+    border: 2px solid var(--bg-colorPrimary);   
 }
 
 article .contentRows{
@@ -73,4 +74,75 @@ article .contentRows{
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.sectionContent{
+    
+    width: 100%;
+    height: 60vh;
+    background: var(--bg-colorThird);
+    border: 1px solid #000;
+    display: flex;
+}
+
+.article{
+    width: 50%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 10px;
+}
+
+.article:nth-child(2){
+    overflow-y: scroll;
+}
+
+.article:nth-child(2) .artContainer{
+    justify-content: space-between;
+}
+.article:nth-child(2) .artContainer:nth-child(1){
+    justify-content: center;
+}
+
+.sectionContent .artContainer{
+    width: 100%;
+    height: 20vh;
+    background: var(--bg-colorPrimary);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+
+}
+
+.article:nth-child(1) .artContainer:nth-child(2){
+    height: 28vh;
+}
+.article:nth-child(1) .artContainer:nth-child(3){
+    height: 15vh;
+}
+
+.artContainer img{
+    width: 100%;
+    height: 28vh; 
+}
+
+
+.imgContent{
+    width: 30%;
+    height: 20vh;
+    overflow: hidden;
+}
+.textContent{
+    width: 65%;
+    height: 20vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.article .title{
+    width: 100%;
+    height: 10vh;
+    
 }

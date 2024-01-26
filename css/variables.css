@@ -1,8 +1,9 @@
 :root{
 
     --bg-colorPrimary: #cebdbd;
-    --bg-colorSecond: #eb7d7d;
-    --bg-colorThird: #6de3e7;
-    --bg-colorFourth: #ecbd91;
+    --bg-colorSecond: #181414;
+    --bg-colorThird: #686868;
+    --bg-colorFourth: #18171594;
     --bg-colorFifth: #000;
+    --colortext: white;
 }
